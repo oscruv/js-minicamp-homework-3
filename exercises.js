@@ -1,10 +1,35 @@
 // Do not change any of the function names
 
+// Feynman Writing Prompts
+
+// objects have named keys vs index like in array, have curly braces instead of brackets, colons separate keys from values
+
+// properties are variables in objects
+
+// methods are functions in objects 
+
+// for in loop is
+
+// dot notation is appending a method to a function to use it console.log console is obj log is method used using dot
+// bracket notation is used to dynamically set new properties and values to existing object 
+
+
 function makeCat(name, age) {
   // create a new object with a name property with the value set to the name argument
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
+  var cats = {
+
+  };
+
+  cats.name = name;
+  cats.age = age;
+  cats.meow = function() {
+    var bark = 'Meow!';
+    return bark;
+  };
+  return cats;
 }
 
 function addProperty(object, property) {
