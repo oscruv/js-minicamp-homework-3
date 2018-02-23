@@ -33,18 +33,22 @@ function makeCat(name, age) {
 }
 
 function addProperty(object, property) {
+  object[property] = null
+  return object;
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
 }
 
 function invokeMethod(object, method) {
+  object[method]();
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
+  
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
 }
